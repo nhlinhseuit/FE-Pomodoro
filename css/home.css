@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+}
+
+.logo {
+    display: inline-block;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.link {
+    display: inline-block;
+    color: white ;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.link span {
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 0.5) ;
+}
+
+.button {
+    color: white;
+    background-color: rgb(106, 89, 252);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.body {
+    background-image: url(https://img.vietcetera.com/uploads/images/02-nov-2021/real-time-study-with-me-with-music-3-00-19-14-1613640165.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(36, 42, 53, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.active {
+    color: white !important;
+}
+
+/* content */
+.content h1{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.content p {
+    color: rgba(255, 255, 255, 0.5);
+    width: 500px;
+    margin: 0 auto;
+    line-height: 1.7;
+    margin-bottom: 50px;
+    letter-spacing: 0.6px;
+}
+
+.content {
+    width: 920px;
+    text-align: center;
+    position: relative;
+    
+    /* độ ưu tiên của layout */
+    z-index: 1;
+}
+
+.button i {
+    margin-left: 10px;
+}
+
+.joining {
+    height: 500px;
+    background-color: antiquewhite;
+}
