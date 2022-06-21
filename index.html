@@ -4,34 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linh nè</title>
-    <!-- CSS only -->
+    <title>Pomodoro</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/747/747086.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
-    <link rel="icon" href="https://icon-library.com/images/icon-cute/icon-cute-0.jpg">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
-    <!-- 2 TH
-        - Thẻ cha không có height: flexible theo thằng con nó
-        - Thẻ cha có height
+    <nav>
+        <div class="logo">
+            <img 
+        src="https://pluralsight.imgix.net/paths/path-icons/graphic-design-8e71846112.png" 
+        alt="logo"
+        width="50px" 
+        >
+        </div>
 
-        overflow: hidden;
-        overflow: scroll; 
-    -->
+        <div class="link">
+            <span class="active">Home</span>
+            <span>Portfolio</span>
+            <span>Discord</span>
+            <span>Team</span>
+            <span>Binder</span>
+            <button class="button">Sign up</button>
+        </div>
+    </nav>
 
-    <!-- 
-        Relative:   tự đi đường nó
-                    dùng để 1 thẻ có thể nằm trên / che được thẻ khác
-                    và sử dụng được top - bottom - right - left
-        Absolute: Tương đối theo cha của nó ( nếu không có cha thì theo body )
-        Fixed: đi theo màn hình
-     -->
-    
-    <h1 class="position">Position</h1>
+    <div class="body">
+        <div class="content">
+            <h1>Study With Me Pomodoro</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed perferendis aliquam. Corrupti nulla rem voluptates alias dicta modi nam dolor ipsam? Voluptatum sit, esse officia cumque necessitatibus laudantium excepturi.</p>
+            <button class="button">
+                Contact Me
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+        </div>
 
-    
+        <div class="overlay"></div>
+        
+    </div>
+
+    <!-- <div class="contact">
+        <div class="joining">
+            <input type="text">
+        </div>
+
+        
+
+        <div class="youtube"></div>
+
+        <div class="footer"></div>
+    </div> -->
 </body>
 </html>
